@@ -66,6 +66,18 @@ Default to neutrals; use semantic colors only when the meaning applies.
 | shade-context    | `#EAE6DE` | subdued background context       |
 | shade-highlight  | `#F1D8C4` | restrained warm emphasis area    |
 
+## Accessibility
+
+Full contrast ratio tables: [accessibility.md](accessibility.md)
+
+Key constraints agents must respect:
+
+- **Accent as text color fails WCAG AA in light mode** (2.82:1). Use accent as a fill, border, or mark — not as body text.
+- **In light mode on semantic fills**: use `text` (#1A1A18) on accent/interactive/critical fills; use `background` (#F5F4F1) on analytic fills.
+- **In dark mode on semantic fills**: always use `background` (#141412), never `text` (#E8E2D8) — light text on these colors fails.
+- `text-faint` fails AA on all surfaces in both themes — restrict to non-essential decorative labels only, never primary content.
+- `text-muted` passes AA on `background` in light mode but drops to AA Large on `surface` and `surface-2` — avoid for small body copy in those contexts.
+
 ## Semantic usage rules
 
 **Accent (orange) ≠ primary action.** It means "Bryan featured/chose/authored
