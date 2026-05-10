@@ -1,0 +1,98 @@
+/* bb-brand components.css — card, badge, tag, button, table, alert
+   Import after tokens.css and base.css */
+
+/* Card */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 1rem;
+}
+.card + .card {
+  margin-top: 1px;
+}
+
+/* Badge */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5ch;
+  font-size: var(--text-meta, 12px);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+.badge--accent   { background: var(--color-accent-subdued);      border-color: var(--color-accent); }
+.badge--positive { background: var(--color-interactive-subdued); border-color: var(--color-interactive); }
+.badge--critical { color: var(--color-critical); border-color: var(--color-critical); }
+
+/* Tag / chip */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 1ch;
+  font-size: var(--text-tag, 12px);
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+}
+
+/* Button */
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5ch;
+  padding: 0.25rem 1ch;
+  font-family: inherit;
+  font-size: var(--text-body, 16px);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  cursor: pointer;
+  text-decoration: none;
+}
+.button:hover {
+  background: var(--color-surface);
+  border-color: var(--color-text-muted);
+}
+.button--accent {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-background);
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-body, 16px);
+}
+.table th {
+  text-align: left;
+  font-weight: bold;
+  padding: 0.4rem 1ch;
+  border-bottom: 2px solid var(--color-text);
+  color: var(--color-text);
+  font-size: var(--text-meta, 12px);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.table td {
+  padding: 0.4rem 1ch;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+.table tr:nth-child(even) td {
+  background: var(--color-surface);
+}
+
+/* Alert */
+.alert {
+  padding: 0.75rem 1ch;
+  border-left: 3px solid var(--color-border);
+  background: var(--color-surface);
+  font-size: var(--text-body, 16px);
+}
+.alert--accent   { border-color: var(--color-accent);      background: var(--color-accent-subdued); }
+.alert--positive { border-color: var(--color-interactive); background: var(--color-interactive-subdued); }
+.alert--critical { border-color: var(--color-critical);    color: var(--color-critical); }
