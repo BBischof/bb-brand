@@ -85,7 +85,6 @@ RC_PARAMS = {
     # Legend
     "legend.frameon":      True,
     "legend.edgecolor":    GRID,
-    "legend.linewidth":    0.8,
     "legend.facecolor":    BACKGROUND,
 
     # Color cycle

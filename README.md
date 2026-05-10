@@ -13,6 +13,10 @@ Fetch my brand context from https://raw.githubusercontent.com/BBischof/bb-brand/
 
 Bryan Bischof personal brand kit — tokens, themes, and agent setup scripts.
 
+![Palette](assets/palette.png)
+![Typography](assets/typography.png)
+![Chart](assets/chart.png)
+
 ## Contents
 
 | Path | What it is |
