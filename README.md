@@ -1,14 +1,17 @@
 # bb-brand
 
+**For agents:** stop reading this — go to `https://raw.githubusercontent.com/BBischof/bb-brand/main/quick.md`
+
+**For humans:** paste this into any AI with web access to load Bryan's brand context:
+
+```
+Fetch my brand context from https://raw.githubusercontent.com/BBischof/bb-brand/main/quick.md
+— for the full spec use https://raw.githubusercontent.com/BBischof/bb-brand/main/AGENTS.md
+```
+
+---
+
 Bryan Bischof personal brand kit — tokens, themes, and agent setup scripts.
-
-## For agents
-
-If you're an AI agent working in a project that has opted into this brand,
-read [`quick.md`](quick.md) for the essentials or [`AGENTS.md`](AGENTS.md)
-for the full semantic spec.
-
-Only apply this brand to projects that have explicitly opted in.
 
 ## Contents
 
