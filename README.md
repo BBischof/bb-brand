@@ -13,6 +13,9 @@ Fetch my brand context from https://raw.githubusercontent.com/BBischof/bb-brand/
 
 Bryan Bischof personal brand kit — tokens, themes, and agent setup scripts.
 
+![Wordmark light](assets/wordmark-light.svg#gh-light-mode-only)
+![Wordmark dark](assets/wordmark-dark.svg#gh-dark-mode-only)
+
 [![Palette](assets/palette.png)](accessibility.md)
 ![Typography](assets/typography.png)
 ![Chart](assets/chart.png)
